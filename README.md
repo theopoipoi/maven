@@ -17,7 +17,7 @@ If you want to bootstrap Maven, you'll need:
 Run Maven, specifying a location into which the completed Maven distro should be installed:
 
 ```
-mvn -DdistributionTargetDir="$HOME/app/maven/apache-maven-3.5.x-SNAPSHOT" clean package
+mvn -DdistributionSourceDir="$HOME/app/maven/apache-maven-3.5.x-SNAPSHOT" clean package
 ```
 
 Once the build completes, you should have a new Maven distro ready to roll in that directory!
